@@ -17,6 +17,18 @@ The dataset will be used to train and evaluate heart disease risk prediction mod
 
 Planned dataset source: UCI Machine Learning Repository - Heart Disease Dataset.
 
+## Version 1
+
+Version 1 trains a logistic regression model to predict heart disease presence using the UCI Heart Disease dataset. The model is evaluated using accuracy, precision, recall, F1 score, and ROC-AUC. A blockchain-inspired audit record is created for the model run, including the dataset hash, model version, features used, performance metrics, previous block hash, and current block hash.
+
+### Version 1 Results
+
+- Accuracy: 83.3%
+- Precision: 84.6%
+- Recall: 78.6%
+- F1 Score: 81.5%
+- ROC-AUC: 94.9%
+
 ## Research Question
 
 How can blockchain-inspired audit trails improve transparency, reproducibility, and accountability for machine learning models used in heart disease risk prediction?

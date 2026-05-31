@@ -4,6 +4,19 @@
 
 This project develops a Python-based heart disease risk prediction model and pairs it with a blockchain-inspired audit trail that records dataset versions, model versions, performance metrics, and tamper-evident model history to improve transparency, reproducibility, and accountability in health AI workflows.
 
+Dataset
+
+This project will use a public heart disease dataset for machine learning model development and audit trail testing. The dataset will include clinical variables commonly used in heart disease risk prediction, such as age, sex, chest pain type, resting blood pressure, cholesterol, maximum heart rate, and heart disease diagnosis.
+
+For this project, the target variable will be treated as a binary classification outcome:
+
+0 = no heart disease
+1 = heart disease present
+
+The dataset will be used to train and evaluate heart disease risk prediction models. Each dataset version will also be recorded in the blockchain-inspired audit trail using a dataset hash to support reproducibility, transparency, and tamper-evident model history.
+
+Planned dataset source: UCI Machine Learning Repository - Heart Disease Dataset.
+
 ## Research Question
 
 How can blockchain-inspired audit trails improve transparency, reproducibility, and accountability for machine learning models used in heart disease risk prediction?

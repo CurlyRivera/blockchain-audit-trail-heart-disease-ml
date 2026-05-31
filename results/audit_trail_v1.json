@@ -1,0 +1,33 @@
+{
+    "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+    "dataset_name": "UCI Heart Disease Dataset",
+    "dataset_version": "v1_cleaned",
+    "dataset_hash": "2126c12e0814c1d6452b2c1d55a9fbef1b02b17e2c84baf63d831bb036efeda9",
+    "model_name": "Logistic Regression",
+    "model_version": "v1",
+    "training_date": "2026-05-31T20:11:41.893302",
+    "features_used": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "performance_metrics": {
+        "accuracy": 0.8333333333333334,
+        "precision": 0.8461538461538461,
+        "recall": 0.7857142857142857,
+        "f1_score": 0.8148148148148148,
+        "roc_auc": 0.9486607142857143
+    },
+    "previous_block_hash": "0",
+    "current_block_hash": "cbc79874f4753498af5d2b2a52f4786e261082194475e11cbd72eb482d06b09e"
+}

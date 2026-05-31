@@ -43,3 +43,13 @@ Each model run will record:
 ## Project Status
 
 This project is currently in early development.
+
+## Repository Structure
+
+- `data/` - Dataset files or notes about the dataset source.
+- `notebooks/` - Jupyter notebooks for data exploration, model building, and evaluation.
+- `src/` - Python scripts for reusable functions and audit trail logic.
+- `results/` - Model performance metrics, charts, and output files.
+- `paper/` - Research-style write-up for the project.
+- `poster/` - Future one-page research poster.
+- `references/` - Notes, articles, and citations related to heart disease prediction, health AI, and blockchain-inspired audit trails.

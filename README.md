@@ -17,13 +17,13 @@ How can blockchain-inspired audit trails improve transparency, reproducibility, 
 
 ## Dataset
 
-This project uses a public heart disease dataset for machine learning model development and audit trail testing. The dataset will include clinical variables commonly used in heart disease risk prediction, such as age, sex, chest pain type, resting blood pressure, cholesterol, maximum heart rate, and heart disease diagnosis.
+This project uses a public heart disease dataset for machine learning model development and audit trail testing. The dataset includes clinical variables commonly used in heart disease risk prediction, such as age, sex, chest pain type, resting blood pressure, cholesterol, maximum heart rate, and heart disease diagnosis.
 
-For this project, the target variable will be treated as a binary classification outcome:
+For this project, the target variable is treated as a binary classification outcome:
 - `0` = no heart disease
 - `1` = heart disease present
 
-The dataset will be used to train and evaluate heart disease risk prediction models. Each dataset version will also be recorded in the blockchain-inspired audit trail using a dataset hash to support reproducibility, transparency, and tamper-evident model history.
+The dataset is used to train and evaluate heart disease risk prediction models. Each dataset version will also be recorded in the blockchain-inspired audit trail using a dataset hash to support reproducibility, transparency, and tamper-evident model history.
 
 Dataset source: UCI Machine Learning Repository - Heart Disease Dataset.
 
@@ -41,7 +41,7 @@ Version 1 trains a logistic regression model to predict heart disease presence u
 
 ## Audit Trail Features
 
-Each model run will record:
+Each model run records:
 
 - Dataset name
 - Dataset version

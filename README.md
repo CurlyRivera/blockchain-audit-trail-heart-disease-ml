@@ -23,7 +23,7 @@ For this project, the target variable is treated as a binary classification outc
 - `0` = no heart disease
 - `1` = heart disease present
 
-The dataset is used to train and evaluate heart disease risk prediction models. Each dataset version will also be recorded in the blockchain-inspired audit trail using a dataset hash to support reproducibility, transparency, and tamper-evident model history.
+The dataset is used to train and evaluate heart disease risk prediction models. Each dataset version is also recorded in the blockchain-inspired audit trail using a dataset hash to support reproducibility, transparency, and tamper-evident model history.
 
 Dataset source: UCI Machine Learning Repository - Heart Disease Dataset.
 

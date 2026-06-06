@@ -39,7 +39,7 @@ Version 1 trains a logistic regression model to predict heart disease presence u
 - F1 Score: 81.5%
 - ROC-AUC: 94.9%
 
-## Planned Audit Trail Features
+## Audit Trail Features
 
 Each model run will record:
 
@@ -54,7 +54,7 @@ Each model run will record:
 - Previous block hash
 - Current block hash
 
-## Planned Tools
+## Tools Used / Planned
 
 - Python
 - pandas

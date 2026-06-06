@@ -6,16 +6,16 @@ This project develops a Python-based heart disease risk prediction model and pai
 
 ## Key Terms
 
-Machine learning model: A computer model that learns patterns from data and uses those patterns to make predictions.
-Heart disease risk prediction: The use of clinical variables, such as age, cholesterol, blood pressure, chest pain type, and maximum heart rate, to estimate whether heart disease may be present.
-Blockchain-inspired audit trail: A record-keeping system inspired by blockchain principles that tracks important changes to datasets, models, and results in a way that is difficult to alter without detection.
-Dataset version: A specific version of the data used to train or evaluate a model.
-Model version: A specific version of a machine learning model, including the algorithm, settings, features, and performance results used during that run.
-Dataset hash: A unique digital fingerprint created from a dataset; if the dataset changes, the hash also changes.
-Tamper-evident model history: A model record system where changes to past data, results, or audit records can be detected.
-Performance metrics: Numerical measures used to evaluate how well a model performs, such as accuracy, precision, recall, F1 score, and ROC-AUC.
-Reproducibility: The ability to repeat the same workflow and obtain the same or similar results.
-Health AI workflow: The process of preparing health data, training a model, evaluating its performance, and tracking the model’s development for use in health-related decision-making.
+- Machine learning model: A computer model that learns patterns from data and uses those patterns to make predictions.
+- Heart disease risk prediction: The use of clinical variables, such as age, cholesterol, blood pressure, chest pain type, and maximum heart rate, to estimate whether heart disease may be present.
+- Blockchain-inspired audit trail: A record-keeping system inspired by blockchain principles that tracks important changes to datasets, models, and results in a way that is difficult to alter without detection.
+- Dataset version: A specific version of the data used to train or evaluate a model.
+- Model version: A specific version of a machine learning model, including the algorithm, settings, features, and performance results used during that run.
+- Dataset hash: A unique digital fingerprint created from a dataset; if the dataset changes, the hash also changes.
+- Tamper-evident model history: A model record system where changes to past data, results, or audit records can be detected.
+- Performance metrics: Numerical measures used to evaluate how well a model performs, such as accuracy, precision, recall, F1 score, and ROC-AUC.
+- Reproducibility: The ability to repeat the same workflow and obtain the same or similar results.
+- Health AI workflow: The process of preparing health data, training a model, evaluating its performance, and tracking the model’s development for use in health-related decision-making.
 
 ## Research Question
 

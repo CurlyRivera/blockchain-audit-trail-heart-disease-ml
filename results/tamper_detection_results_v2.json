@@ -1,0 +1,165 @@
+{
+    "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+    "original_chain_verification": {
+        "chain_is_valid": true,
+        "verification_results": [
+            {
+                "block_number": 1,
+                "model_name": "Logistic Regression",
+                "saved_current_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                "recalculated_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                "hash_matches": true,
+                "previous_hash_matches": true,
+                "block_is_valid": true
+            },
+            {
+                "block_number": 2,
+                "model_name": "Random Forest",
+                "saved_current_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                "recalculated_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                "hash_matches": true,
+                "previous_hash_matches": true,
+                "block_is_valid": true
+            },
+            {
+                "block_number": 3,
+                "model_name": "Gradient Boosting",
+                "saved_current_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                "recalculated_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                "hash_matches": true,
+                "previous_hash_matches": true,
+                "block_is_valid": true
+            }
+        ]
+    },
+    "tamper_tests": {
+        "tamper_metric_accuracy": {
+            "chain_is_valid": false,
+            "verification_results": [
+                {
+                    "block_number": 1,
+                    "model_name": "Logistic Regression",
+                    "saved_current_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "recalculated_hash": "bfbb261694aa8f0e38ec556bb45954e6a69ca7866b5a6346ff0448a043f622e2",
+                    "hash_matches": false,
+                    "previous_hash_matches": true,
+                    "block_is_valid": false
+                },
+                {
+                    "block_number": 2,
+                    "model_name": "Random Forest",
+                    "saved_current_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "recalculated_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 3,
+                    "model_name": "Gradient Boosting",
+                    "saved_current_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "recalculated_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                }
+            ]
+        },
+        "tamper_model_name": {
+            "chain_is_valid": false,
+            "verification_results": [
+                {
+                    "block_number": 1,
+                    "model_name": "Logistic Regression",
+                    "saved_current_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "recalculated_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 2,
+                    "model_name": "Tampered Random Forest",
+                    "saved_current_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "recalculated_hash": "6e98f58649161cf321b71b4b6b6e319b4999286be838e172311744e25db86a55",
+                    "hash_matches": false,
+                    "previous_hash_matches": true,
+                    "block_is_valid": false
+                },
+                {
+                    "block_number": 3,
+                    "model_name": "Gradient Boosting",
+                    "saved_current_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "recalculated_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                }
+            ]
+        },
+        "tamper_dataset_hash": {
+            "chain_is_valid": false,
+            "verification_results": [
+                {
+                    "block_number": 1,
+                    "model_name": "Logistic Regression",
+                    "saved_current_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "recalculated_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 2,
+                    "model_name": "Random Forest",
+                    "saved_current_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "recalculated_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 3,
+                    "model_name": "Gradient Boosting",
+                    "saved_current_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "recalculated_hash": "b8016f3a0784c34d0242d3f7593bb60941e2ab93f99fe8df8a421f1240cf9550",
+                    "hash_matches": false,
+                    "previous_hash_matches": true,
+                    "block_is_valid": false
+                }
+            ]
+        },
+        "tamper_previous_block_hash": {
+            "chain_is_valid": false,
+            "verification_results": [
+                {
+                    "block_number": 1,
+                    "model_name": "Logistic Regression",
+                    "saved_current_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "recalculated_hash": "6c2dd7a181fc3bf2b7b1600dfa4761d0ffc991ae20013a499be73303c039fc58",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 2,
+                    "model_name": "Random Forest",
+                    "saved_current_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "recalculated_hash": "a44d0a5c2ebfe66fc7cfbec1ab588560712bf9e053bd529ca84ac668379e27c0",
+                    "hash_matches": true,
+                    "previous_hash_matches": true,
+                    "block_is_valid": true
+                },
+                {
+                    "block_number": 3,
+                    "model_name": "Gradient Boosting",
+                    "saved_current_hash": "8bac801a0fe8157f1fb0bb24de0b87c3cd3d8c85e28e4d3dbe67c9a89b56fdad",
+                    "recalculated_hash": "1590f8e4310ca17e03ded6aa78b5350472d26658662d265c23396dd93446d14a",
+                    "hash_matches": false,
+                    "previous_hash_matches": false,
+                    "block_is_valid": false
+                }
+            ]
+        }
+    }
+}

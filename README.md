@@ -129,6 +129,12 @@ Each model run records:
 
 This project is currently in early development. Version 1 established a baseline logistic regression model and created an initial blockchain-inspired audit record. Version 2 expanded the project by comparing multiple machine learning models, creating a multi-block audit chain, testing tamper detection, and adding feature importance analysis for model explainability. Future versions may include additional datasets, more advanced machine learning models, fairness and bias testing, and more complete blockchain or distributed ledger implementation.
 
+## How to Reproduce This Project
+
+1. Open `notebooks/heart_disease_model_comparison_v2.ipynb`.
+2. Run all notebook cells from top to bottom.
+3. The notebook will generate model comparison results, audit chain records, tamper-detection results, and feature importance outputs in the `results/` folder.
+
 ## Repository Structure
 
 - data/ - Dataset files or notes about the dataset source.

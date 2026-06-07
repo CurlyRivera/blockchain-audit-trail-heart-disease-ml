@@ -52,6 +52,43 @@ Version 1 trains a logistic regression model to predict heart disease presence u
 - F1 Score: 81.5%
 - ROC-AUC: 94.9%
 
+## Version 2
+
+Version 2 expands the project by comparing multiple machine learning models, creating a multi-block blockchain-inspired audit chain, testing tamper detection, and adding feature importance analysis for model explainability. This version compares Logistic Regression, Random Forest, and Gradient Boosting using the same cleaned UCI Heart Disease dataset and the same train-test split.
+
+## Version 2 Model Comparison Results
+Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
+Logistic Regression	83.3%	84.6%	78.6%	81.5%	94.9%
+Random Forest	85.0%	88.0%	78.6%	83.0%	94.1%
+Gradient Boosting	76.7%	76.9%	71.4%	74.1%	88.3%
+
+Random Forest achieved the highest accuracy and F1 score, while Logistic Regression achieved the highest ROC-AUC.
+
+## Version 2 Audit Chain
+
+Version 2 creates a three-block audit chain:
+
+- Block 1: Logistic Regression
+- Block 2: Random Forest
+- Block 3: Gradient Boosting
+
+Each block records the dataset hash, model version, training date, features used, hyperparameters, performance metrics, previous block hash, and current block hash. This creates a linked model history where each model record is connected to the previous model record.
+
+## Version 2 Tamper Detection
+
+Tamper-detection testing was performed by intentionally modifying audit records and checking whether the recalculated hash still matched the saved hash. The original audit chain was valid, while the tampered versions were detected as invalid.
+
+Tamper tests included:
+
+- Changing a model performance metric
+- Changing a model name
+- Changing the dataset hash
+- Changing a previous block hash
+
+## Version 2 Feature Importance
+
+Feature importance analysis was added using Random Forest and Gradient Boosting. The most important variables included thalassemia-related information, chest pain type, number of major vessels, ST depression, age, cholesterol, and maximum heart rate.
+
 ## Audit Trail Features
 
 Each model run records:
@@ -79,14 +116,14 @@ Each model run records:
 
 ## Project Status
 
-This project is currently in early development. Version 1 has been completed using a logistic regression model and a blockchain-inspired audit trail record. Future versions will expand the audit trail, compare additional machine learning models, and include tamper-detection testing.
+This project is currently in early development. Version 1 established a baseline logistic regression model and created an initial blockchain-inspired audit record. Version 2 expanded the project by comparing multiple machine learning models, creating a multi-block audit chain, testing tamper detection, and adding feature importance analysis for model explainability. Future versions may include additional datasets, more advanced machine learning models, fairness and bias testing, and more complete blockchain or distributed ledger implementation.
 
 ## Repository Structure
 
-- `data/` - Dataset files or notes about the dataset source.
-- `notebooks/` - Jupyter notebooks for data exploration, model building, and evaluation.
-- `src/` - Python scripts for reusable functions and audit trail logic.
-- `results/` - Model performance metrics, charts, and output files.
-- `paper/` - Research-style write-up for the project.
-- `poster/` - Future one-page research poster.
-- `references/` - Notes, articles, and citations related to heart disease prediction, health AI, and blockchain-inspired audit trails.
+- data/ - Dataset files or notes about the dataset source.
+- notebooks/ - Jupyter notebooks for data exploration, model building, model comparison, audit trail construction, tamper detection, and feature importance analysis.
+- src/ - Python scripts for reusable functions and audit trail logic.
+- results/ - Model performance metrics, audit trail records, tamper-detection results, feature importance tables, and charts.
+- paper/ - Research-style write-up for the project.
+- poster/ - Future one-page research poster.
+- references/ - Notes, articles, and citations related to heart disease prediction, health AI, and blockchain-inspired audit trails.

@@ -100,6 +100,10 @@ Feature importance analysis was added using Random Forest and Gradient Boosting.
 - `results/feature_importance_v2.csv` - Feature importance results.
 - `results/feature_importance_v2.png` - Feature importance chart.
 
+## Version 3 Planned Work
+
+Version 3 will expand the project by adding a deep learning model to the existing heart disease prediction workflow. This version will compare a neural network model against the Version 2 traditional machine learning models, including Logistic Regression, Random Forest, and Gradient Boosting. Version 3 will also improve reproducibility by moving reusable code into Python scripts and updating the blockchain-inspired audit chain to record deep learning model architecture, training settings, hyperparameters, and performance metrics.
+
 ## Audit Trail Features
 
 Each model run records:

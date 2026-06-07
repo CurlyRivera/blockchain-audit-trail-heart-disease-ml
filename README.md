@@ -6,16 +6,16 @@ This project develops a Python-based heart disease risk prediction model and pai
 
 ## Key Terms
 
-- Machine learning model: A computer model that learns patterns from data and uses those patterns to make predictions.
-- Heart disease risk prediction: The use of clinical variables, such as age, cholesterol, blood pressure, chest pain type, and maximum heart rate, to estimate whether heart disease may be present.
-- Blockchain-inspired audit trail: A record-keeping system inspired by blockchain principles that tracks important changes to datasets, models, and results in a way that is difficult to alter without detection.
-- Dataset version: A specific version of the data used to train or evaluate a model.
-- Model version: A specific version of a machine learning model, including the algorithm, settings, features, and performance results used during that run.
-- Dataset hash: A unique digital fingerprint created from a dataset; if the dataset changes, the hash also changes.
-- Tamper-evident model history: A model record system where changes to past data, results, or audit records can be detected.
-- Performance metrics: Numerical measures used to evaluate how well a model performs, such as accuracy, precision, recall, F1 score, and ROC-AUC.
-- Reproducibility: The ability to repeat the same workflow and obtain the same or similar results.
-- Health AI workflow: The process of preparing health data, training a model, evaluating its performance, and tracking the model’s development for use in health-related decision-making.
+- **Machine learning model:** A computer model that learns patterns from data and uses those patterns to make predictions.
+- **Heart disease risk prediction:** The use of clinical variables, such as age, cholesterol, blood pressure, chest pain type, and maximum heart rate, to estimate whether heart disease may be present.
+- **Blockchain-inspired audit trail:** A record-keeping system inspired by blockchain principles that tracks important changes to datasets, models, and results in a way that is difficult to alter without detection.
+- **Dataset version:** A specific version of the data used to train or evaluate a model.
+- **Model version:** A specific version of a machine learning model, including the algorithm, settings, features, and performance results used during that run.
+- **Dataset hash:** A unique digital fingerprint created from a dataset; if the dataset changes, the hash also changes.
+- **Tamper-evident model history:** A model record system where changes to past data, results, or audit records can be detected.
+- **Performance metrics:** Numerical measures used to evaluate how well a model performs, such as accuracy, precision, recall, F1 score, and ROC-AUC.
+- **Reproducibility:** The ability to repeat the same workflow and obtain the same or similar results.
+- **Health AI workflow:** The process of preparing health data, training a model, evaluating its performance, and tracking the model’s development for use in health-related decision-making.
 
 ## Research Question
 
@@ -56,11 +56,13 @@ Version 1 trains a logistic regression model to predict heart disease presence u
 
 Version 2 expands the project by comparing multiple machine learning models, creating a multi-block blockchain-inspired audit chain, testing tamper detection, and adding feature importance analysis for model explainability. This version compares Logistic Regression, Random Forest, and Gradient Boosting using the same cleaned UCI Heart Disease dataset and the same train-test split.
 
-## Version 2 Model Comparison Results
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	83.3%	84.6%	78.6%	81.5%	94.9%
-Random Forest	85.0%	88.0%	78.6%	83.0%	94.1%
-Gradient Boosting	76.7%	76.9%	71.4%	74.1%	88.3%
+### Version 2 Model Comparison Results
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 83.3% | 84.6% | 78.6% | 81.5% | 94.9% |
+| Random Forest | 85.0% | 88.0% | 78.6% | 83.0% | 94.1% |
+| Gradient Boosting | 76.7% | 76.9% | 71.4% | 74.1% | 88.3% |
 
 Random Forest achieved the highest accuracy and F1 score, while Logistic Regression achieved the highest ROC-AUC.
 
@@ -89,6 +91,15 @@ Tamper tests included:
 
 Feature importance analysis was added using Random Forest and Gradient Boosting. The most important variables included thalassemia-related information, chest pain type, number of major vessels, ST depression, age, cholesterol, and maximum heart rate.
 
+### Version 2 Outputs
+
+- `notebooks/heart_disease_model_comparison_v2.ipynb` - Version 2 notebook for model comparison, audit chain construction, tamper detection, and feature importance analysis.
+- `results/model_comparison_v2.csv` - Model comparison results for Logistic Regression, Random Forest, and Gradient Boosting.
+- `results/audit_chain_v2.json` - Multi-block blockchain-inspired audit chain.
+- `results/tamper_detection_results_v2.json` - Tamper-detection test results.
+- `results/feature_importance_v2.csv` - Feature importance results.
+- `results/feature_importance_v2.png` - Feature importance chart.
+
 ## Audit Trail Features
 
 Each model run records:
@@ -104,7 +115,7 @@ Each model run records:
 - Previous block hash
 - Current block hash
 
-## Tools Used / Planned
+## Tools Used
 
 - Python
 - pandas

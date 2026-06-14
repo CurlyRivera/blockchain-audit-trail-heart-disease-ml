@@ -1,0 +1,5 @@
+Model,Type,Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Logistic Regression,Traditional ML baseline,0.833,0.846,0.786,0.815,0.949
+Random Forest,Tree-based ML,0.85,0.88,0.786,0.83,0.941
+Gradient Boosting,Boosted tree model,0.767,0.769,0.714,0.741,0.883
+Neural Network / MLP,Deep learning baseline,0.85,0.88,0.7857142857142857,0.8301886792452831,0.9486607142857143

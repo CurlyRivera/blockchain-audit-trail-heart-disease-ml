@@ -199,6 +199,13 @@ Version 3 also added reproducibility files:
 - `.gitignore` - File for excluding unnecessary files from version control.
 - `paper/blockchain_audit_trail_heart_disease_research_paper_draft.md` - Research-style paper draft describing Versions 1, 2, and 3.
 
+## Project Summary and Research Paper
+
+This repository includes a one-page project summary and a longer research-style paper draft.
+
+- `paper/project_summary_one_page.md` - Short faculty-facing summary of the project, including the research question, methods, model comparison results, audit trail design, health AI governance relevance, and future work.
+- `paper/blockchain_audit_trail_heart_disease_research_paper_draft.md` - Full research-style paper draft describing Version 1, Version 2, and Version 3 of the project.
+
 ## Deep Learning Interpretation
 
 The neural network was added to evaluate whether a deep learning model could improve heart disease prediction performance compared with traditional machine learning models. It also strengthened the project by showing how deep learning model details can be recorded in a blockchain-inspired audit trail.

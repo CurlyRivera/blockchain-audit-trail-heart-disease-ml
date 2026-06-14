@@ -1,0 +1,222 @@
+[
+    {
+        "block_number": 1,
+        "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+        "project_version": "Version 3",
+        "dataset_name": "UCI Heart Disease Dataset",
+        "dataset_version": "heart_disease_clean_v1",
+        "dataset_hash": "2126c12e0814c1d6452b2c1d55a9fbef1b02b17e2c84baf63d831bb036efeda9",
+        "target_variable": "heart_disease_present",
+        "features_used": [
+            "age",
+            "sex",
+            "cp",
+            "trestbps",
+            "chol",
+            "fbs",
+            "restecg",
+            "thalach",
+            "exang",
+            "oldpeak",
+            "slope",
+            "ca",
+            "thal"
+        ],
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42,
+            "stratified": true
+        },
+        "model_name": "Logistic Regression",
+        "model_type": "Traditional ML baseline",
+        "model_version": "v3_model_1",
+        "training_date": "2026-06-14T05:03:13.417892",
+        "hyperparameters": {
+            "max_iter": 1000
+        },
+        "deep_learning_details": null,
+        "performance_metrics": {
+            "Accuracy": 0.833,
+            "Precision": 0.846,
+            "Recall": 0.786,
+            "F1 Score": 0.815,
+            "ROC-AUC": 0.949
+        },
+        "previous_block_hash": "0",
+        "current_block_hash": "58faf7f799bfb79baedd5ff99ef4a5bf667f447d7754b7e0e08a3925e686d112"
+    },
+    {
+        "block_number": 2,
+        "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+        "project_version": "Version 3",
+        "dataset_name": "UCI Heart Disease Dataset",
+        "dataset_version": "heart_disease_clean_v1",
+        "dataset_hash": "2126c12e0814c1d6452b2c1d55a9fbef1b02b17e2c84baf63d831bb036efeda9",
+        "target_variable": "heart_disease_present",
+        "features_used": [
+            "age",
+            "sex",
+            "cp",
+            "trestbps",
+            "chol",
+            "fbs",
+            "restecg",
+            "thalach",
+            "exang",
+            "oldpeak",
+            "slope",
+            "ca",
+            "thal"
+        ],
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42,
+            "stratified": true
+        },
+        "model_name": "Random Forest",
+        "model_type": "Tree-based ML",
+        "model_version": "v3_model_2",
+        "training_date": "2026-06-14T05:03:13.417892",
+        "hyperparameters": {
+            "random_state": 42
+        },
+        "deep_learning_details": null,
+        "performance_metrics": {
+            "Accuracy": 0.85,
+            "Precision": 0.88,
+            "Recall": 0.786,
+            "F1 Score": 0.83,
+            "ROC-AUC": 0.941
+        },
+        "previous_block_hash": "58faf7f799bfb79baedd5ff99ef4a5bf667f447d7754b7e0e08a3925e686d112",
+        "current_block_hash": "e8ff1dbc9381369332d18f072843de2fb9cb1097390068381850aa663602e660"
+    },
+    {
+        "block_number": 3,
+        "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+        "project_version": "Version 3",
+        "dataset_name": "UCI Heart Disease Dataset",
+        "dataset_version": "heart_disease_clean_v1",
+        "dataset_hash": "2126c12e0814c1d6452b2c1d55a9fbef1b02b17e2c84baf63d831bb036efeda9",
+        "target_variable": "heart_disease_present",
+        "features_used": [
+            "age",
+            "sex",
+            "cp",
+            "trestbps",
+            "chol",
+            "fbs",
+            "restecg",
+            "thalach",
+            "exang",
+            "oldpeak",
+            "slope",
+            "ca",
+            "thal"
+        ],
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42,
+            "stratified": true
+        },
+        "model_name": "Gradient Boosting",
+        "model_type": "Boosted tree model",
+        "model_version": "v3_model_3",
+        "training_date": "2026-06-14T05:03:13.417892",
+        "hyperparameters": {
+            "random_state": 42
+        },
+        "deep_learning_details": null,
+        "performance_metrics": {
+            "Accuracy": 0.767,
+            "Precision": 0.769,
+            "Recall": 0.714,
+            "F1 Score": 0.741,
+            "ROC-AUC": 0.883
+        },
+        "previous_block_hash": "e8ff1dbc9381369332d18f072843de2fb9cb1097390068381850aa663602e660",
+        "current_block_hash": "c1e9a4d21dddd0b1ab9288244f198a204a9e03df24613cd4e81782e7b9d4ff26"
+    },
+    {
+        "block_number": 4,
+        "project_title": "Designing a Blockchain-Inspired Audit Trail for Machine Learning Models Used in Heart Disease Risk Prediction",
+        "project_version": "Version 3",
+        "dataset_name": "UCI Heart Disease Dataset",
+        "dataset_version": "heart_disease_clean_v1",
+        "dataset_hash": "2126c12e0814c1d6452b2c1d55a9fbef1b02b17e2c84baf63d831bb036efeda9",
+        "target_variable": "heart_disease_present",
+        "features_used": [
+            "age",
+            "sex",
+            "cp",
+            "trestbps",
+            "chol",
+            "fbs",
+            "restecg",
+            "thalach",
+            "exang",
+            "oldpeak",
+            "slope",
+            "ca",
+            "thal"
+        ],
+        "train_test_split": {
+            "test_size": 0.2,
+            "random_state": 42,
+            "stratified": true
+        },
+        "model_name": "Neural Network / MLP",
+        "model_type": "Deep learning baseline",
+        "model_version": "v3_model_4",
+        "training_date": "2026-06-14T05:03:13.417892",
+        "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0010000000474974513,
+            "epochs_planned": 100,
+            "epochs_trained": 27,
+            "batch_size": 16,
+            "loss_function": "binary_crossentropy"
+        },
+        "deep_learning_details": {
+            "architecture": "Multilayer Perceptron",
+            "number_of_layers": 3,
+            "layers": [
+                {
+                    "layer_type": "Dense",
+                    "units": 16,
+                    "activation_function": "relu"
+                },
+                {
+                    "layer_type": "Dense",
+                    "units": 8,
+                    "activation_function": "relu"
+                },
+                {
+                    "layer_type": "Dense",
+                    "units": 1,
+                    "activation_function": "sigmoid"
+                }
+            ],
+            "optimizer": "adam",
+            "learning_rate": 0.0010000000474974513,
+            "epochs_planned": 100,
+            "epochs_trained": 27,
+            "batch_size": 16,
+            "loss_function": "binary_crossentropy",
+            "early_stopping": {
+                "monitor": "val_loss",
+                "patience": 10,
+                "restore_best_weights": true
+            }
+        },
+        "performance_metrics": {
+            "Accuracy": 0.85,
+            "Precision": 0.88,
+            "Recall": 0.7857142857142857,
+            "F1 Score": 0.8301886792452831,
+            "ROC-AUC": 0.9486607142857143
+        },
+        "previous_block_hash": "c1e9a4d21dddd0b1ab9288244f198a204a9e03df24613cd4e81782e7b9d4ff26",
+        "current_block_hash": "b35c6d89b6dfbc1e0c9a3b8517d7ad600565a094b5713181964059b989665c9d"
+    }
+]
